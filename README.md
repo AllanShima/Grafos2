@@ -11,3 +11,4 @@ mtz_exemplo = arquivo contendo a matriz que será importada
 
 resultadoesperado = arquivo contendo o resultado esperado de cada matriz com a conversão do código
 
+-(A pasta pode ser importada dentro do VSCode e assim testar os códigos)
