@@ -38,7 +38,7 @@ def matriz_incidencia():
 
 def matriz_similaridade():
     # Matriz incidência
-    matriz_inc = mtz_ex()
+    matriz_inc = matriz_incidencia()
 
     # Número de linhas e colunas na matriz incidência:
     num_linhas, num_colunas = matriz_inc.shape[0], matriz_inc.shape[1]
@@ -60,7 +60,7 @@ def matriz_similaridade():
 def matriz_coocorrencia():
 
     # Chamando a função e imprimindo a matriz de incidência:
-    matriz_inc = mtz_ex()
+    matriz_inc = matriz_incidencia()
 
     # Nomes das colunas
     colunas = ["x", "y", "z", "w", "k"]
